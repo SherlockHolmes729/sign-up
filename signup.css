@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.sbody {
+    font-family: 'B612', sans-serif;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(32deg, rgba(235, 160, 151, 1) 0%, rgba(236, 118, 104, 1) 87%);
+}
+
+.boxr {
+    width: 100%;
+    height: 94vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.main_classr {
+    width: 500px;
+    height: 540px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 6px 9px 22px 10px rgba(0, 0, 0, 0.20);
+    top: 56%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.headingr {
+    color: black;
+    font-size: 3em;
+    position: relative;
+    text-align: center;
+    top: 1%;
+    text-transform: uppercase;
+}
+
+.formreg {
+    top: 2%;
+    position: relative;
+    text-align: center;
+}
+
+.inputreg {
+    width: 50%;
+    padding: 4px 10px;
+    margin: 4px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.labelr {
+    float: left;
+    width: 11em;
+    margin-right: -3em;
+    right: 10%;
+}
+
+.btnreg {
+
+    width: 50%;
+    background-color: rgba(236, 118, 104, 1);
+    color: white;
+    padding: 14px 20px;
+    margin: 14px 26px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btnreg:hover {
+    transition: .5s;
+    border: 1px solid rgba(236, 118, 104, 1);
+    background-color: rgba(236, 118, 104, 1);
+}
+
+.anchreg {
+    display: inline;
+}
+
+/* CSS for MOBILE */
+
+@media (max-width: 768px) {
+  .boxr {
+    width: 100%;
+    height: 110vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+    .main_classr {
+        width: 75%;
+        height: 580px;
+        position: absolute;
+        background-color: white;
+        box-shadow: 6px 9px 22px 10px rgba(0, 0, 0, 0.20);
+        top: 63%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .formreg {
+        position: relative;
+        text-align: center;
+    }
+
+    .inputreg {
+        width: 55%;
+        padding: 5px 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .labelr {
+        margin-top: 10px;
+        float: left;
+        width: 10em;
+        margin-right: -2em;
+        right: 5%;
+    }
+
+}
+
